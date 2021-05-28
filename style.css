@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Secular One', sans-serif;
+}
+.modal {
+  display: none;
+  position: fixed; 
+  z-index: 1000; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; 
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav {
+  background:rgba(11, 28,40,1);
+  height: 10vmax;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 998;
+}
+
+a.logo {
+  color: #ffffff;
+  font-size:4vmax;
+  line-height: 80px;
+  font-weight: bold;
+  position: static;
+}
+.progress-container {
+  position: fixed;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+  z-index: 1000;
+}
+
+.progress-bar {
+  height: 8px;
+  background:#0a1d29;
+  width: 0%;
+}
+
+
+#sec-one {
+  background: url(Images/1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.bg-white {
+  background-color: #fff;
+  background-size: cover;
+  height: 100vh;
+}
+
+.card {
+  font-size: large;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  margin: 20px;
+  background-size: cover;
+}
+.card h1 {
+  font-size: 5vmax;
+}
+
+.side {
+  padding:0 ;
+  text-decoration: none;
+  font-size: 1.5vw;
+  margin-bottom: 5px;
+  position: fixed;
+  top: 5px;
+}
+
+#about {
+  background-color: #0a1d29;
+  background-size: cover;
+  height: 90vh;
+}
+
+#about h3 {
+  color: white;
+  font-size:2.5vmin;
+}
+#about a {
+  
+  font-size: 2.7vmin;
+  color: #1e577b;
+  
+}
+#about a:hover{
+  text-decoration: underline #1e577b;
+}
+
+.div-content {
+  float: left;
+  padding: 2rem;
+  text-align: center;
+  padding-left: 5.8%;
+  padding-right: 5.8%;
+}
+
+.whole-about {
+  width: 70%;
+  padding-top: 7%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+hr {
+  position:static;
+  margin-top: 34%;
+  margin-left: 10%;
+}
+
+@media (max-width:2700px){
+  nav {
+    height: 80px;
+}
+.whole-quick {
+  position: absolute;
+  width: 100%;
+  margin-left: 0%;
+}
+.quick {
+  
+  margin: 5px;
+  padding: 1px;
+}
+}
+@media (max-height: 365px){
+  nav {
+    height: 20vh;
+}
+}
+@media (max-width: 496px){
+.quick img {
+  display: none;
+}
+}
+/* 
+  .whole-quick {
+  
+    margin-top:40vh ;
+    margin-left:10vh ;
+    width: 50%;
+    left: 5%;
+    float: none;
+    
+    overflow: hidden;
+  }
+  
+  
+} */
+
+
+.whole-quick {
+  position:absolute;
+  float: left;
+  margin-top: 20vh ;
+  margin-left:10vh ;
+  width: 50%;
+  height: 100%;
+  overflow:none;
+}
+.quick {
+  height: 50px;
+  width: 250px;
+  
+  background-color: rgba(255,255,255,.6);
+  float: left;
+  margin: 10px;
+  transition: 1s;
+  padding: 13px;
+  
+  
+}
+.quick:hover{
+  background-color: rgba(255,255,255,1);
+  
+}
+.quick img {
+  position: relative;
+  float: right;
+}
+.quick img:hover {
+  left: 5px;
+}
+.login{
+  background-color: rgba(0, 172, 230,.6);
+  
+}
+.login:hover{
+  background-color: rgba(0, 172, 230,1);
+}
+.quick a{
+  color: black;
+}
+.quick a:hover{
+  text-decoration: underline 1px;
+}
+
+#notice{
+  border: 2px solid rgba(11, 28,40,.5);
+  margin: 65px;
+  height: 100vh;
+  border-radius: 25px;
+}
+#notice-heading {
+  color: #0a1d29;
+  font-weight:lighter;
+  margin: 30px;
+  margin-top: 40px;
+  font-size: 200%;
+  text-align: center;
+  text-decoration: underline;
+  float:right;
+}
+#notice img{
+  margin: -20px;
+  margin-left: -45px;
+  float: left;
+  height: 28vh;
+}
+
+
+#after-n img {
+  height: 28vh;
+  position: relative;
+  float: right;
+  margin-top: -213px;
+}
+footer{
+  
+  
+  
+}
+footer li,h3 {
+  position: relative;
+  float: left;
+}
+footer h3 {
+  margin: 20px;
+}
+footer img {
+  margin-top: 4px;
+  height: 55px;
+}
