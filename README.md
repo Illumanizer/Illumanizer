@@ -1,6 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on NextJs and Flutter<br>👯 I’m looking to collaborate on exciting projects<br>🤝 I’m looking for help with innovative minds.<br>🌱 I’m currently learning Flutter
-
+🔭 I’m currently working on AI and Machine Learning.<br>👯 I’m looking to collaborate on exciting projects<br>🤝 I’m looking for help with innovative minds.<br>🌱 I’ve some experience in Flutter & NodeJS for web-apps.
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/pranav-singh-sehgal) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Illumanizer) 
